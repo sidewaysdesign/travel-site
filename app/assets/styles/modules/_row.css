@@ -1,0 +1,45 @@
+.row {
+ @mixin clearfix;
+ margin-right:-65px;
+
+ &--gutters > div {
+  padding-right: 65px;
+  box-sizing:border-box;
+ }
+
+ &__b-margin-until-medium {
+  margin-bottom:1rem;
+ }
+ &--gutters {
+  margin-right: -65px;
+  box-sizing: border-box;
+ }
+
+ @mixin atMedium {
+
+  &__b-margin-until-medium {
+   margin-bottom:0;
+  }
+
+ &__medium-4 {
+  float: left;
+  width: 33.3333%;
+ }
+ &__medium-4--larger {
+  width:37%;
+ }
+
+ &__medium-8 {
+  float: left;
+  width: 66.6666%;
+ }
+ &__medium-8--smaller {
+  width: 63%;
+ }
+}
+ &--gutters > div {
+  padding-right: 65px;
+  box-sizing: border-box;
+ }
+
+}
