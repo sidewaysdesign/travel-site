@@ -8,25 +8,10 @@
  &--gutters > div { padding-right: 65px; }
  &--gutters-large > div { padding-right: 100px; }
  &--gutters-small > div { padding-right: 45px; }
- &__b-margin-until-medium {
-  margin-bottom: 1rem;
- }
-<<<<<<< HEAD
-=======
- &--gutters-large {
-  margin-right: -100px;
-  box-sizing: border-box;
- }
- &--gutters-large > div {
-  padding-right: 100px;
-  box-sizing:border-box;
- }
+ &__b-margin-until-medium { margin-bottom: 1rem; }
 
->>>>>>> our-features
  @mixin atMedium {
-  &__b-margin-until-medium {
-   margin-bottom: 0;
-  }
+  &__b-margin-until-medium { margin-bottom: 0; }
   &__medium-4 { float: left; width: 33.33%; }
   &__medium-4--larger { width: 37%; }
   &__medium-6 { float: left; width: 50%; }
@@ -42,32 +27,5 @@
    float:none;
    display: flex;
   }
-<<<<<<< HEAD
-=======
-
- &__medium-4 {
-  float: left;
-  width: 33.3333%;
- }
- &__medium-4--larger {
-  width:37%;
- }
- &__medium-6 {
-  float:left;
-  width:50%;
- }
-
- &__medium-8 {
-  float: left;
-  width: 66.6666%;
- }
- &__medium-8--smaller {
-  width: 63%;
- }
-}
- &--gutters > div {
-  padding-right: 65px;
-  box-sizing: border-box;
->>>>>>> our-features
  }
 }
