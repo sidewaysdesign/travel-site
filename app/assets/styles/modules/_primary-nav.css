@@ -6,7 +6,7 @@
 
  &--pull-right {
   @mixin atMedium {
-   padding-top: 10px;
+   padding-top: 0;
    float: right;
   }
  }
@@ -22,6 +22,7 @@
   display: inline-block;
   padding-right: 7px;
   @mixin atMedium {
+   padding-right: 20px;
    float: left;
   }
  }
@@ -44,6 +45,10 @@
    background-color: transparent;
    font-size: 1rem;
    padding: 12px 0;
+
+   &.is-current-link {
+    color:#fabb69;
+   }
   }
  }
 }
